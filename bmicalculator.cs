@@ -22,7 +22,24 @@ namespace bmicalculator
 
             double BMI = (weight / height_squared) * 703;
 
-            Console.WriteLine("\nYour BMI is: {0}", Math.Round(BMI, 2));
+            Console.WriteLine("\nYour BMI is: {0}\n", Math.Round(BMI, 2));
+
+            if (BMI < 18.5)
+            {
+                Console.WriteLine("You are Underweight");
+            }
+            else if (BMI >= 18.5 && BMI <= 24.9)
+            {
+                Console.WriteLine("You are Normal weight");
+            }
+            else if (BMI >= 25 && BMI <= 29.9)
+            {
+                Console.WriteLine("You are Overweight");
+            }
+            else
+            {
+                Console.WriteLine("You are Obesity");
+            }
         }
     }
 }
