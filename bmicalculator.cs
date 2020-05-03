@@ -6,6 +6,8 @@ namespace bmicalculator
     {
         static void Main(string[] args)
         {
+            // https://www.cdc.gov/healthyweight/assessing/bmi/childrens_bmi/childrens_bmi_formula.html
+
             Console.Write("What is your weight(lb)? ");
             float weight = float.Parse(Console.ReadLine());
 
