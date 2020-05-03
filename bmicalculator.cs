@@ -1,8 +1,8 @@
 ﻿using System;
 
-namespace consoleproject
+namespace bmicalculator
 {
-    class Program
+    class bmicalculator
     {
         static void Main(string[] args)
         {
