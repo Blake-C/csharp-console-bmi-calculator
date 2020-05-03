@@ -26,19 +26,19 @@ namespace bmicalculator
 
             if (BMI < 18.5)
             {
-                Console.WriteLine("You are Underweight");
+                Console.WriteLine("You are underweight");
             }
             else if (BMI >= 18.5 && BMI <= 24.9)
             {
-                Console.WriteLine("You are Normal weight");
+                Console.WriteLine("You are normal weight");
             }
             else if (BMI >= 25 && BMI <= 29.9)
             {
-                Console.WriteLine("You are Overweight");
+                Console.WriteLine("You are overweight");
             }
             else
             {
-                Console.WriteLine("You are Obesity");
+                Console.WriteLine("You are obese");
             }
         }
     }
